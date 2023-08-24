@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1%;
+}
+
+article {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: fit-content;
+}
+
+article p {
+  width: 540px;
+  padding: 0% 1% 0% 1%;
+}
+
+img {
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+}
