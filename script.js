@@ -26,6 +26,6 @@ const img = document.querySelector("section article:nth-child(1) img");
 img.src = "https://picsum.photos/id/213/550/550";
 console.log(img);
 
-//Alans måde at gøre det på
+//Alans måde at ændre img elementer på
 const elm = (document.querySelector("section article:nth-child(2) img").src = "https://picsum.photos/id/233/550/550");
 console.log(elm);
