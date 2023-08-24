@@ -1,6 +1,5 @@
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 1%;
 }
 
@@ -14,10 +13,6 @@ article {
 article p {
   width: 540px;
   padding: 0% 1% 0% 1%;
-}
-
-img {
-  padding: 0;
 }
 
 h1 {
